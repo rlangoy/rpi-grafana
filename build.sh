@@ -4,8 +4,7 @@
 # grafana git tag to build
 VERSION=2.6.0
 
-# host dir to copy result to
-DIST_DIR=dist-$VERSION
+# docker image to build
 IMAGE_NAME=heziegl/rpi-grafana:$VERSION
 
 # build grafana runtime

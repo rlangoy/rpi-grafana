@@ -5,7 +5,7 @@ RUN 	apt-get update \
 
 ARG	VERSION=2.6.0
 
-ADD 	https://github.com/heziegl/rpi-grafana-build/raw/master/dist-v$VERSION/grafana-$VERSION.linux-arm.tar.gz /grafana.tar.gz
+ADD 	https://github.com/heziegl/rpi-grafana-build/raw/master/dist-$VERSION/grafana-$VERSION.linux-arm.tar.gz /grafana.tar.gz
 
 RUN	tar -xf /grafana.tar.gz \
 	&& rm /grafana.tar.gz \
