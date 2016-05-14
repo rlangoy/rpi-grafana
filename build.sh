@@ -2,7 +2,7 @@
 
 
 # grafana git tag to build
-VERSION=2.6.0
+VERSION=3.0.1
 DOCKERHUBUSER=heziegl
 
 # docker image to build
