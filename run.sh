@@ -1,7 +1,7 @@
 #! /bin/bash
 
 
-VERSION=3.0.1
+VERSION=3.1.1
 
 sudo docker run -t -d --name=grafana \
                 -p 3000:3000 \

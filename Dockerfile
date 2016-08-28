@@ -3,13 +3,14 @@ FROM resin/rpi-raspbian:jessie
 RUN	apt-get update \
 	&& apt-get install libfontconfig
 
-ARG	VERSION=3.0.1
+ARG	VERSION=3.1.1
+ARG	VERSION_SUFFIX=1471857718
 
-ADD	https://github.com/heziegl/rpi-grafana-build/raw/master/dist-$VERSION/grafana-$VERSION-.linux-arm.tar.gz /grafana.tar.gz
+ADD	https://github.com/heziegl/rpi-grafana-build/raw/master/dist-$VERSION/grafana-$VERSION-$VERSION_SUFFIX.linux-arm.tar.gz /grafana.tar.gz
 
 RUN	tar -xf /grafana.tar.gz \
 	&& rm /grafana.tar.gz \
-	&& mv /grafana-$VERSION- /grafana
+	&& mv /grafana-$VERSION-$VERSION_SUFFIX /grafana
 
 ARG	PORT=3000
 
