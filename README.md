@@ -16,7 +16,7 @@ sudo docker info
 ```
 ### Installing and running the grafana docker image (the easy way)
 ```bash
-curl -sSL https://raw.githubusercontent.com/heziegl/rpi-grafana/master/easyinstall.sh |sh
+curl -sSL https://raw.githubusercontent.com/rlangoy/rpi-grafana/master/easyinstall.sh |sh
 ```
 grafana coudl be acessed in your web-broweser using the url: http:\\\\localhost:3000 <br>
 (remember defaut user is admin and default pass word is admin)<br>
