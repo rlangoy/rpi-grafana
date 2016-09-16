@@ -18,7 +18,7 @@ sudo docker info
 ```bash
 curl -sSL https://raw.githubusercontent.com/heziegl/rpi-grafana/master/easyinstall.sh |sh
 ```
-grafana coudl be acessed in your web-broweser using the url: http:\\localhost:3000 <br>
+grafana coudl be acessed in your web-broweser using the url: http:\\\\localhost:3000 <br>
 (remember defaut user is admin and default pass word is admin)<br>
 
 
