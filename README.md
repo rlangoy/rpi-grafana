@@ -5,7 +5,7 @@ Dockerfile for running [Grafana](http://grafana.org) on raspberry pi.
 You can use this docker image to run grafana in docker.
 
 ### Install docker (if not already done)
-Since there is no official docker build for raspberry pi (https://www.raspberrypi.org/blog/docker-comes-to-raspberry-pi/):
+The official docker install for raspberry pi (https://www.raspberrypi.org/blog/docker-comes-to-raspberry-pi/):
 ```bash
 #install docker the easy way
 curl -sSL https://get.docker.com | sh
